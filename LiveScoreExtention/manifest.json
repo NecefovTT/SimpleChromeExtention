@@ -1,0 +1,17 @@
+{
+"name" : "LiveScore",
+"version" : "1.0",
+"manifest_version" : 2,
+"description" : "Simple LiveScore Extention",
+"browser_action" :{
+				"default_icon" : "icon.png",
+				"default_popup" : "index.html"
+				},
+"icons" : {
+ "16" : "icon_16.png",
+ "48" : "icon_48.png",
+ "128" : "icon_128.png"
+		},
+"background" : {"scripts" : ["code.js"]}
+
+}
